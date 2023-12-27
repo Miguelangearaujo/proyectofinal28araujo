@@ -1,0 +1,99 @@
+h1{
+    background: #930000;
+}
+
+.navbar{
+    background-color: orange  !important ;
+}
+
+.nav-link{
+
+    color: black  !important;
+}
+
+.jumbotron{
+
+    height: 300;
+    background-image: url( ../imagenes/imagen1.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+
+    color: green;
+}
+
+.jumbotron p{
+    color: rgb(50, 140, 205);
+}
+h2{
+    text-align: center;
+    background-color: brown;
+    padding: 15px;
+    color: white;
+    margin-bottom: 0;
+
+}
+
+.nleft{
+    
+    height: 200px;
+    background-image: url(../imagenes/imagen1.jpg) ;
+    background-size: cover; 
+    background-position: center;
+}   
+.servicios article{
+
+    background-color: rgb(42, 81, 165) !important;
+    border: 3px solid black; 
+    text-align: center;
+
+}
+
+.card-img{
+    font-size: 35px;
+}
+.servicios .card-desc{
+    color: #ffffff;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: goldenrod;
+    color: black; 
+    padding: 30px; 
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+
+.bg-footer {
+    background-color: #ffa500;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.type-white {
+    color: #ffffff;
+   
+}
+
+.redes a i {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.redes a i:hover {
+    transform: scale(1.5);
+    transition: all ease;
+}
+
+.yang:hover {
+    color: #000000;
+}
