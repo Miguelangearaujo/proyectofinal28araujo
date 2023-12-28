@@ -97,3 +97,98 @@ footer{
 .yang:hover {
     color: #000000;
 }
+
+/* ------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+
+    background-color: #333;  
+    height: 700px;   
+    width: 100%;  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(3, 200px);  
+    grid-template-areas:
+    "img1 img2 img3 img3"
+    "im1  img4 img5 img6" 
+    "img7 img4 img8 img8" ;
+    grid-gap: 15px; 
+    padding: 30px;  
+
+
+     
+}
+
+.item{
+
+    border: 3px solid #fff;
+    background-size: cover; 
+    background-position: center;
+    border-radius: 10px;
+   }  
+
+.item:hover{
+
+         filter: grayscale(100%);
+         transform: scale(1.1);
+         transition: all  0.7s;
+
+   }
+
+
+.item1{
+
+    grid-area: img1;
+    background-image: url(../imagenes/imagen1.jpg);
+    background-size: cover; 
+    background-position: center;
+
+}
+
+.item2{
+
+    grid-area: img2;
+    background-image: url(../imagenes/bbq-36427_640.png);
+}
+
+.item3{
+
+    grid-area: img3;
+    background-image: url(../imagenes/chefs-hat-23436_640.png);
+}
+
+.item4{
+
+    grid-area: img4;
+    background-image: url();
+}
+
+
+.item5{
+
+    grid-area: img5;
+    background-image: url(../imagenes/recipe-575434_640.png);
+}
+
+.item6{
+
+    grid-area: img6;
+    background-image: url(../imagenes/imagen1.jpg);
+}
+
+.item7{
+
+    grid-area: img7;
+    background-image: url(../imagenes/logo1.png);
+}
+
+.item8{
+
+    grid-area: img8;
+    background-image: url(../imagenes/logo2.png);
+}
